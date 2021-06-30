@@ -1,0 +1,58 @@
+.detailsBox {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.hero__header {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.detailsBoxBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__container {
+  width: 470px;
+  margin: 0 auto;
+}
+.hero__heading {
+  font-size: 18px;
+}
+.hero__item {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.hero__item__head {
+  text-align: left;
+}
+.hero__item__body {
+  width: 300px;
+  text-align: justify;
+  text-transform: none;
+}
+
+.hero__item__abilities {
+  align-items: center;
+}
+
+div .hero__buy {
+  margin-top: 30px;
+}
+
+.hero_item_border {
+  border-bottom: 1px solid gray;
+}
